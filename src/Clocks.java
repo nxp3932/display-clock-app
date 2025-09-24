@@ -4,18 +4,17 @@ import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.swing.JApplet;
+import javax.swing.JPanel;
 import javax.swing.JFrame;
 import javax.swing.Timer;
 
 /**
- * Applet that runs the timer and calls the refresh on each individual clock
- * displayed drawn within it.
+ * GUI container that runs the timer and calls {@code refresh} on each individual
+ * clock displayed within it.
  *
  * @author nishad
- *
  */
-public class Clocks extends JApplet {
+public class Clocks extends JPanel {
 
 	private static List<DisplayClock> clocks;
 
